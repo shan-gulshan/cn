@@ -1,0 +1,12 @@
+steps
+
+1) components add
+2) add address to server
+3) in AAA of server add network configuration and iot name and pass ( Light , Light)
+4) router -> set ssid and security to WPA2 enterprise and add ip 
+5) in iot add the ssid , userid and password of server.
+6) on io on the server
+7) on client login admin admin  and add ip by DHCP
+8) on each iot add the server addres and user name(admin) and password(admin)
+
+# can add as many as devices
