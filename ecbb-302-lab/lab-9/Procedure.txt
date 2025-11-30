@@ -1,0 +1,22 @@
+=> Connect the network as shown in the workspace
+
+=> go to router's cli and configure the router
+
+=> check the connection with the pcs in yellow and orange network
+
+=> check remote access
+	-> telnet 192.168.1.1
+	-> enter the username and password
+	-> enable
+	-> write the enable password
+	-> 
+
+=> enter the global configuration mode in admin pc
+	-> enable
+	-> config t
+	-> service DHCP 
+	-> configure router for dhcp pool (ip dhcp pool poolname
+	-> network 192.168.1.0 255.255.255.0
+	-> default router 192.168.1.1
+	-> dns-server 192.168.1.1
+	-> now add a new pc and check whether it get's an ip address automatically (mark it ip as dhcp instead of stat
